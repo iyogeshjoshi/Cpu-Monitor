@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Monitoring System</title>
+    <!--CSS Files -->
+    <!--For Screen Computer/ Laptop-->
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" media="screen" />
+    <!--For mobile/ handheld devices-->
+    <link rel="stylesheet" href="css/bootstrap.css" media="handheld" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" media="handheld"/>
+    <!--<link rel="stylesheet" href="bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="bootstrap.css"/>-->
+
+    <!--Scripting Libraries -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.10.1.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/modules/exporting.js"></script>
+
+</head>
+<body>
+<section class="container">
+    <header>
+        <div class="page-header">
+            <h1>Monitoring System</h1>
+        </div>
+    </header>
+
+    <article class="row-fluid container-fluid">
+        <div id='IdleCycle' class="span6 well"></div>
+        <div id="freemem" class="span6 well"></div>
+
+    </article>
+    <div class="row-fluid container-fluid">
+        <section id="stat" class="span6"></section>
+    </div>
+</section>
+</body>
+</html>

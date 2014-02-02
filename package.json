@@ -1,0 +1,12 @@
+{
+    "name":"Monitor",
+    "author":"Yogesh Joshi",
+    "version":"0.1.1",
+    "private":true,
+    "dependencies":{
+        "express":"latest",
+        "socket.io":"latest",
+        "socket.io-client":"latest",
+        "mongojs":"latest"
+    }
+}
